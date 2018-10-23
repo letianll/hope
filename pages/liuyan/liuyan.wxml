@@ -1,0 +1,43 @@
+<view class='form-main'>
+    <view><text  class='lyb-ly'>留言板</text></view>
+    <view class='main-form'>
+      <form >
+        <view class='form-ly1'>
+          <text class='text-ly'>姓名：</text>
+              <image class='nameicon' src='/images/le-r01.png'></image>
+             <input placeholder-class='textcolor' class='nametext'></input>
+        </view>
+
+        <view class='form-ly'>
+          <text class='text-ly'>电话：</text>
+              <image class='nameicon' src='/images/le-r01.png'></image>
+              <input placeholder-class='textcolor' class='nametext' type='number'></input>
+        </view>
+        <view class='form-ly'>
+          <text class='text-ly'>邮箱：</text>
+              <image class='nameicon' src='/images/le-r01.png'></image>
+              <input placeholder-class='textcolor' class='nametext' type='number'></input>
+        </view>
+        <view class='form-ly'>
+          <text class='text-ly'>类型：</text>
+          <image class='nameicon' src='/images/le-r01.png'></image>
+          <picker bindchange="pickerFiled" value="{{fileds[fIndex]}}" range="{{fileds}}">
+     
+          <view class="field">{{fileds[fIndex]}}</view>          
+          </picker>
+        </view>
+
+
+        <view class='form-ly2'>
+          <view class='text-ly1'>
+            <text >内容：</text>
+          </view>
+          <view  class='form-textarea'>
+            <textarea placeholder='感谢您为本站提供留言。。。' class='textarea-ly' maxlength="2000" bindinput='jj_input'></textarea>
+            <view class="jj_num">{{jj_num}}/2000</view>
+          </view>
+        </view>
+        <button class='btn-ly'>完 成</button>
+      </form>
+    </view>
+</view>

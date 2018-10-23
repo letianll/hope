@@ -1,0 +1,66 @@
+ <!-- 成功案例 -->
+ <swiper-item >
+ <scroll-view scroll-y="true" style="height: 100%;">
+  <view class='container yw-le-201'>
+    <view class='yw-le-100'>
+      <view class='yw-le-003'><text class='yw-le-101'>SEM网站</text></view>
+      <image class='yw-le-002' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+      </image>     
+    </view>
+    <view class='yw-le-200'>
+      <view class='yw-le-005'>安徽非衣调味品公司</view>
+      <view  class='yw-le-008'>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/shou.png'></image> 11</view>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/zan.png'></image> 23</view>
+      </view>
+    </view>
+  </view>
+
+    <view class='container yw-le-201'>
+    <view class='yw-le-100'>
+      <view class='yw-le-003'><text class='yw-le-101'>SEM网站</text></view>
+      <image class='yw-le-002' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+      </image>     
+    </view>
+    <view class='yw-le-200'>
+      <view class='yw-le-005'>安徽非衣调味品公司</view>
+      <view  class='yw-le-008'>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/shou.png'></image> 11</view>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/zan.png'></image> 23</view>
+      </view>
+    </view>
+  </view>
+
+    <view class='container yw-le-201'>
+    <view class='yw-le-100'>
+      <view class='yw-le-003'><text class='yw-le-101'>SEM网站</text></view>
+      <image class='yw-le-002' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+      </image>     
+    </view>
+    <view class='yw-le-200'>
+      <view class='yw-le-005'>安徽非衣调味品公司</view>
+      <view  class='yw-le-008'>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/shou.png'></image> 11</view>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/zan.png'></image> 23</view>
+      </view>
+    </view>
+  </view>
+
+  
+    <view class='container yw-le-201'>
+    <view class='yw-le-100'>
+      <view class='yw-le-003'><text class='yw-le-101'>SEM网站</text></view>
+      <image class='yw-le-002' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+      </image>     
+    </view>
+    <view class='yw-le-200'>
+      <view class='yw-le-005'>安徽非衣调味品公司</view>
+      <view  class='yw-le-008'>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/shou.png'></image> 11</view>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/zan.png'></image> 23</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+ </swiper-item>
+ <!-- 成功案例结束 -->

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/yewu/yewu",
+    "pages/zixun/zixun",
+    "pages/liuyan/liuyan",
+    "pages/mine/mine",
+    "pages/details/details",
+    "pages/c9/c9",
+    "pages/favorite/favorite"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "安徽希望科技股份有限责任公司",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/indexh.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/yewuh.png",
+        "iconPath": "images/yewu.png",
+        "pagePath": "pages/yewu/yewu",
+        "text": "业务"
+      },
+      {
+        "selectedIconPath": "images/zixunh.png",
+        "iconPath": "images/zixun.png",
+        "pagePath": "pages/zixun/zixun",
+        "text": "资讯"
+      },
+      {
+        "selectedIconPath": "images/liuyanh.png",
+        "iconPath": "images/liuyan.png",
+        "pagePath": "pages/liuyan/liuyan",
+        "text": "留言"
+      },
+      {
+        "selectedIconPath": "images/mineh.png",
+        "iconPath": "images/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<view class='container'>
+  <view class='mi-le-00'>
+    <view class='mi-le-0003'>
+    <image src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=566010496,2760811060&fm=26&gp=0.jpg' class='mi-le-0001' mode='aspectFill'></image>
+    <image class='mi-le-0002' src='/images/cat.png'></image>
+    </view>
+    
+    <view><text class='mi-le-0005'>山姆大叔</text></view>
+  </view>
+  <view class='mi-le-10'>
+    <view class='mi-le-1000'>
+      <image src='/images/fx-le-01.png' class='mi-le-1001' mode='aspectFill'></image>
+      <text class='mi-le-1002'>分享小程序</text>
+      <image src='/images/le-r01.png' class='mi-le-1003' mode='aspectFill'></image>      
+    </view>
+    <navigator url='/pages/favorite/favorite'>
+      <view class='mi-le-1000'>
+        <image src='/images/sc-le-02.png' class='mi-le-1001' mode='aspectFill'></image>
+        <text class='mi-le-1002'>我的收藏</text>
+        <image src='/images/le-r01.png' class='mi-le-1003' mode='aspectFill'></image>
+      </view>
+    </navigator>
+    <view class='mi-le-1000'>
+      <image src='/images/liuyanl.png' class='mi-le-1001' mode='aspectFill'></image>
+      <text class='mi-le-1002'>我的留言</text>
+      <image src='/images/le-r01.png' class='mi-le-1003' mode='aspectFill'></image>
+    </view>    
+  </view>
+</view>

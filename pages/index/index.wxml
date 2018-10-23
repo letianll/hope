@@ -1,0 +1,37 @@
+<view class='main'>
+  <image class='main-pic' src='../../images/phone-le-01.png' bindtap='phonecallevent'></image>
+  <view class='top-1'>
+    <swiper class="myswiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{movies}}" wx:key="{{index}}">
+        <navigator url="{{item.urls}}">
+          <swiper-item >
+            <image src="{{item.photo}}" class="slide-image" mode="aspectFill" />
+          </swiper-item>
+        </navigator>
+      </block>
+    </swiper>
+  </view>  
+
+  <view class='top-2'>
+      <block wx:for="{{pics}}" wx:key="{{index}}" >
+        <view class='mid-200'>
+          <navigator url="{{item.urls}}">    
+            <image src="{{item.photo}}" mode='scaleToFill' class='img-200'/>
+          </navigator>
+        </view>
+      </block>
+  </view>
+  <view class='le-3'>
+    <view class='le-3100'>
+      <text class='le-3101'>-公司简介-</text>
+    </view>
+    <view class='le-3202'>
+      <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1013697050,1657501253&fm=26&gp=0.jpg' mode="aspectFill"></image>
+    </view>
+    <view class='le-3300'>
+        <text class='le-3303'>
+        安徽希望网络科技股份有限公司成立于2003年，是由一批具有互联网服务背景的网络精英所组成，年轻、富有活力，是一家专业从事网站建设、网络推广和网络营销的互联网基础产品服务商，是安徽省互联网协会会员、安徽省软件行业协会会员，并取得双软认证，同时拥有省通讯管理局颁发的增值电信业务许可证。目前也是中国知名的B2B电子商务平台慧聪网在安徽地区的核心代理商，以及中国万网和北京新网互联安徽地区的金牌代理商
+        </text>
+    </view>
+  </view>
+</view>

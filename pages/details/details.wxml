@@ -1,0 +1,42 @@
+<!-- 文章详情 -->
+<view catchtap='chagePl2' class='dt-le-0020'>
+  <view class='dt-le-0021'>
+    <view class='dt-le-0023'>
+       这天这对明星引起了全网络的祝福
+    </view>
+    <view class='dt-le-0022'>
+    <text>来源:本站</text>
+    <text>2018-10-22</text>    
+    </view>
+  </view>
+  <scroll-view scroll-y="true" class='dt-le-0024'>
+     <text>赵丽颖冯绍峰结婚】10月16日赵丽颖在31岁生日当天大方公开与冯绍峰结婚证，配文“官宣”正式宣布结婚喜讯。冯绍峰甜蜜回应：老婆，生日快乐！据悉，赵丽颖冯绍峰合作过《西游记女儿国》《知否知否应是绿肥红瘦》，多次被网友偶遇拍到同框，却始终未承认过恋情，如今直接公布婚讯，恭喜 ！赵丽颖冯绍峰结婚】10月16日赵丽颖在31岁生日当天大方公开与冯绍峰结婚证，配文“官宣”正式宣布结婚喜讯。冯绍峰甜蜜回应：老婆，生日快乐！据悉，赵丽颖冯绍峰合作过《西游记女儿国》《知否知否应是绿肥红瘦》，多次被网友偶遇拍到同框，却始终未承认过恋情，如今直接公布婚讯，恭喜 ！赵丽颖冯绍峰结婚】10月16日赵丽颖在31岁生日当天大方公开与冯绍峰结婚证，配文“官宣”正式宣布结婚喜讯。冯绍峰甜蜜回应：老婆，生日快乐！据悉，赵丽颖冯绍峰合作过《西游记女儿国》《知否知否应是绿肥红瘦》，多次被网友偶遇拍到同框，却始终未承认过恋情，如今直接公布婚讯，恭喜 ！赵丽颖冯绍峰结婚】10月16日赵丽颖在31岁生日当天大方公开与冯绍峰结婚证，配文“官宣”正式宣布结婚喜讯。冯绍峰甜蜜回应：老婆，生日快乐！据悉，赵丽颖冯绍峰合作过《西游记女儿国》《知否知否应是绿肥红瘦》，多次被网友偶遇拍到同框，却始终未承认过恋情，如今直接公布婚讯，恭喜 ！赵丽颖冯绍峰结婚】10月16日赵丽颖在31岁生日当天大方公开与冯绍峰结婚证，配文“官宣”正式宣布结婚喜讯。冯绍峰甜蜜回应：老婆，生日快乐！据悉，赵丽颖冯绍峰合作过《西游记女儿国》《知否知否应是绿肥红瘦》，多次被网友偶遇拍到同框，却始终未承认过恋情，如今直接公布婚讯，恭喜 ！赵丽颖冯绍峰结婚】10月16日赵丽颖在31岁生日当天大方公开与冯绍峰结婚证，配文“官宣”正式宣布结婚喜讯。冯绍峰甜蜜回应：老婆，生日快乐！据悉，赵丽颖冯绍峰合作过《西游记女儿国》《知否知否应是绿肥红瘦》，多次被网友偶遇拍到同框，却始终未承认过恋情，如今直接公布婚讯，恭喜 ！</text>
+  </scroll-view>
+</view>
+
+<!-- 评论业务相关 -->
+<view class='dt-le-00'>
+  <view class='dt-le-0002' >
+    <!-- <input class='dt-le-0000' type="text" placeholder="我也来说两句..."></input> -->
+    <text class='dt-le-0003' catchtap='chagePl'>我也来说两句...</text>
+    <!-- <image src='/images/sd-le-01.png' class='dt-le-0001' mode='aspectFill'></image> -->
+    <view class='dt-le-0004'>
+      <image src='/images/shou.png' class='dt-le-0001' mode='aspectFill'></image>
+      <view class='dt-le-0005'>
+        <text >23</text>
+      </view>
+    </view>
+
+    <image src='/images/zf-le-03.png' class='dt-le-0001' mode='aspectFill'></image>
+  </view>
+</view>
+<view class='dt-le-10' hidden='{{showpl?true:flase}}'>
+  <view class='dt-le-11'>
+    <text class='dt-le-1100'>评论</text>
+    <button class='dt-le-1101' size="mini" style="opacity:0.8"  ><image class='dt-le-1102' src='/images/fs-le-01.png'  mode='aspectFill'></image></button>
+    
+  </view>
+  <view>
+    <textarea class='dt-le-1103' placeholder="输入内容"  maxlength="2000" adjust-position show-confirm-bar="true" ></textarea>
+  </view>
+</view>

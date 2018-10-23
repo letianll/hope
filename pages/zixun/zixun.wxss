@@ -1,0 +1,97 @@
+.swiper-tab{
+  width: 100%; 
+  border-bottom: 1rpx solid #777777; 
+  text-align: center; 
+  line-height: 80rpx;
+}
+.swiper-tab-list{
+  font-size: 30rpx; 
+  display: inline-block; 
+  width: 30%; 
+  color: #777777; 
+}
+.on{
+  color: #0074D9; 
+  border-bottom: 3rpx solid #0074D9;
+}
+.swiper-box{ 
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+ }
+.swiper-box view{ 
+  text-align: center; 
+}
+
+.le-zx-100{
+    border: 1px solid #ECE5E5;
+    margin: 5%;
+    border-radius: 2%;
+}
+.le-zx-101{
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: left !important; 
+  margin-left: 3%;
+
+}
+.le-zx-102{
+  font-size: 14px;
+  text-align: left;
+  font-weight: 100%;
+}
+.le-zx-103{
+  
+  height:400rpx;
+  margin: 0 2% 0 2%;
+  border-radius: 2%
+}
+.le-zx-104{
+  font-size: 14px;
+  text-align: left;
+  display: flex;
+  justify-content:space-between;
+  margin: 2%;
+}
+.le-zx-105{
+  font-size: 14px;
+  text-align: left;
+}
+.le-zx-106{
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.le-zx-200{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%
+}
+.le-zx-201{
+  width: 30%;
+  text-align: center
+}
+.le-zx-203{
+  width: 90%;
+  height: 130rpx;
+  margin-left:25% 
+}
+.le-zx-20201{
+  font-size: 14px;
+  font-weight: 200%;
+  margin: 0 5% 0 10%;
+  text-align: left !important; 
+}
+
+.le-zx-202{
+  display: flex;
+  flex-direction: column;
+}
+.le-zx-20202{
+  font-size: 12px;
+  line-height: 35rpx;
+  margin: 2% 5% 0 10%;
+  color: #777777;
+  text-align: left !important; 
+}

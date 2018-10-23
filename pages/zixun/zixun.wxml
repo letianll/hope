@@ -1,0 +1,146 @@
+<view class="swiper-tab">
+ <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">签约动态</view>
+ <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">公司新闻</view>
+ <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">行业新闻</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+
+  <swiper-item>
+    <view class='le-zx-100'>
+      <view class='le-zx-101'>
+        <text class='le-zx-102'>安徽希望科技与阿里巴巴达成合作</text>
+      </view>
+      <view>
+        <image class='le-zx-103' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+        </image>
+      </view>  
+      <view class='le-zx-104'>
+        <text class='le-zx-105'>详细信息</text>
+        <image class='le-zx-106'  src='../../images/le-r01.png'></image>
+      </view>
+    </view>
+    <navigator url="/pages/details/details">
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view>
+    </view>
+   </navigator>
+
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view> 
+    </view>
+
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view>
+    </view>
+
+  </swiper-item>
+
+ <swiper-item>
+    <view class='le-zx-100'>
+      <view class='le-zx-101'>
+        <text class='le-zx-102'>安徽希望科技与阿里巴巴达成合作</text>
+      </view>
+      <view>
+        <image class='le-zx-103' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+        </image>
+      </view>  
+      <view class='le-zx-104'>
+        <text class='le-zx-105'>详细信息</text>
+        <image class='le-zx-106'  src='../../images/le-r01.png'></image>
+      </view>
+    </view>
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view>
+    </view>
+
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view> 
+    </view>
+    
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view>
+    </view>
+
+ </swiper-item>
+ <swiper-item>
+    <view class='le-zx-100'>
+      <view class='le-zx-101'>
+        <text class='le-zx-102'>安徽希望科技与阿里巴巴达成合作</text>
+      </view>
+      <view>
+        <image class='le-zx-103' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+        </image>
+      </view>  
+      <view class='le-zx-104'>
+        <text class='le-zx-105'>详细信息</text>
+        <image class='le-zx-106'  src='../../images/le-r01.png'></image>
+      </view>
+    </view>
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view>
+    </view>
+
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view> 
+    </view>
+    
+    <view class='le-zx-200'>
+      <view class='le-zx-201'>
+        <image class='le-zx-203'src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539946306143&di=9427881f4bb111c784723c977eefbb78&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Fm%2Ftbimg%2Fimg%2Fimgextra%2Fi2%2F51807199%2FTB2KTMXXVXXXXaIXpXXXXXXXXXX-51807199.jpg'  mode='scaleToFill'></image>
+      </view>
+      <view class='le-zx-202'>
+        <view class='le-zx-20201'>安徽省含山县东方麻油有限公司签约</view>
+        <view class='le-zx-20202'>安徽省含山县东方麻油有限公司，坐落于含山县的东大门，祁门经济...</view>
+      </view>
+    </view>
+
+ </swiper-item>
+</swiper>

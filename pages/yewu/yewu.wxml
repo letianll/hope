@@ -1,0 +1,111 @@
+<view class="swiper-tab">
+ <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">业务范围</view>
+ <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">成功案例</view>
+ <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">联系我们</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+<!-- 业务范围 -->
+ <swiper-item>
+  <import src="cell.wxml" />  
+<view class="pages-container">  
+  <scroll-view scroll-y="true" class="pages-wrapper">  
+    <view wx:for="{{pageItems}}" wx:key="{{text}}">  
+      <view class="pages-row">  
+        <template is="cell" data="{{...item[0],cellHeight}}" />  
+        <template is="cell" data="{{...item[1],cellHeight}}" />  
+        <template is="cell" data="{{...item[2],cellHeight}}" />  
+      </view>  
+    </view>  
+  </scroll-view>  
+</view>
+ </swiper-item>
+ <!-- 业务范围结束 -->
+ <!-- 成功案例 -->
+ <swiper-item >
+ <scroll-view scroll-y="true" style="height: 100%;">
+  <view class='container yw-le-201'>
+    <view class='yw-le-100'>
+      <view class='yw-le-003'><text class='yw-le-101'>SEM网站</text></view>
+      <image class='yw-le-002' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+      </image>     
+    </view>
+    <view class='yw-le-200'>
+      <view class='yw-le-005'>安徽非衣调味品公司</view>
+      <view  class='yw-le-008'>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/shou.png'></image> 11</view>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/zan.png'></image> 23</view>
+      </view>
+    </view>
+  </view>
+
+    <view class='container yw-le-201'>
+    <view class='yw-le-100'>
+      <view class='yw-le-003'><text class='yw-le-101'>SEM网站</text></view>
+      <image class='yw-le-002' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+      </image>     
+    </view>
+    <view class='yw-le-200'>
+      <view class='yw-le-005'>安徽非衣调味品公司</view>
+      <view  class='yw-le-008'>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/shou.png'></image> 11</view>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/zan.png'></image> 23</view>
+      </view>
+    </view>
+  </view>
+
+    <view class='container yw-le-201'>
+    <view class='yw-le-100'>
+      <view class='yw-le-003'><text class='yw-le-101'>SEM网站</text></view>
+      <image class='yw-le-002' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+      </image>     
+    </view>
+    <view class='yw-le-200'>
+      <view class='yw-le-005'>安徽非衣调味品公司</view>
+      <view  class='yw-le-008'>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/shou.png'></image> 11</view>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/zan.png'></image> 23</view>
+      </view>
+    </view>
+  </view>
+
+  
+    <view class='container yw-le-201'>
+    <view class='yw-le-100'>
+      <view class='yw-le-003'><text class='yw-le-101'>SEM网站</text></view>
+      <image class='yw-le-002' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539928473539&di=ca5e9c87cf35a47d6501643d832184ed&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20111208%2FImg328350755.jpg' mode='scaleToFill'>
+      </image>     
+    </view>
+    <view class='yw-le-200'>
+      <view class='yw-le-005'>安徽非衣调味品公司</view>
+      <view  class='yw-le-008'>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/shou.png'></image> 11</view>
+        <view class='yw-le-006'><image class='yw-le-300' src='/images/zan.png'></image> 23</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+ </swiper-item>
+ <!-- 成功案例结束 -->
+ <swiper-item>
+  <view class='lx-le-01'>
+    <view  class='lx-le-03'><text>安徽希望科技股份有限公司</text></view>
+    <view  class='lx-le-02'><text>合肥市蜀山区</text></view>
+    <view  class='lx-le-02'><text>望江西路800号创新产业园D7栋5楼</text></view>
+    <view  class='lx-le-02'><text>客服电话 0551-67195758</text></view>
+    <view  class='lx-le-02'><text>手机号码 13865650125</text></view>
+    <view  class='lx-le-02'><text>邮政编码 230088</text></view>
+    <view  class='lx-le-05'>
+<map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 400rpx;"></map>
+    </view>
+
+
+
+
+
+    <view bindtap='intoMap'>
+    <view><image class='lx-le06' src='/images/le-map01.png'></image></view>
+    <view><text class='lx-le07'>开始导航</text></view>
+    </view>
+  </view>
+ </swiper-item>
+</swiper>
